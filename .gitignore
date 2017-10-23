@@ -69,6 +69,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # pyenv
 .python-version
@@ -99,3 +100,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# settings file
+settings/settings.py
+
+# DATA
+DATA/*
+
+# commit .gitkeep
+!DATA/.gitkeep
